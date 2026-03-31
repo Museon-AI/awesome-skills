@@ -1,3 +1,8 @@
+---
+name: project-spec
+description: Living documentation template for your project's architecture, conventions, data flow, and frontend-backend mapping. Fill in the references to keep AI agents aligned with your codebase.
+---
+
 # Project Spec — Living Documentation for AI Coding Agents
 
 A template for maintaining a "living spec" that AI coding agents can reference when working in your codebase. Keeps agents aligned with your team's conventions, architecture, and data flow — without repeating yourself every conversation.

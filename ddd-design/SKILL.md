@@ -1,3 +1,8 @@
+---
+name: ddd-design
+description: DDD decision trees, tactical patterns, code templates, and review checklist for Python backend projects. Guides aggregate design, state machines, CQRS, and layered architecture decisions.
+---
+
 # DDD Design Guide for AI Coding Agents
 
 Guides domain-driven design decisions in Python backend projects. Helps AI coding agents (Claude Code, Codex, Cursor, etc.) make consistent architectural choices.

@@ -1,6 +1,6 @@
 # Awesome Skills
 
-Open-source agent skills for AI coding tools. Works with Claude Code, OpenAI Codex CLI, Cursor, Windsurf, and any tool that reads the [SKILL.md](https://skillsmp.com/) format.
+Open-source agent skills for AI coding tools. Works with [OpenClaw](https://openclaw.ai), Claude Code, OpenAI Codex CLI, Cursor, Windsurf, and any tool that reads the [SKILL.md](https://skillsmp.com/) format.
 
 Born from real production use at [Museon AI](https://github.com/Museon-AI) — these skills helped our team maintain consistent architecture across 50k+ lines of Python/TypeScript code with AI-assisted development.
 
@@ -27,6 +27,22 @@ cp -r awesome-skills/ddd-design .claude/skills/
 Your AI agent will automatically discover and use the skill. No configuration needed.
 
 ## Integration
+
+### OpenClaw
+
+Install via CLI or copy manually:
+
+```bash
+# Via CLI (if published to ClawHub)
+openclaw skills install ddd-design
+
+# Or copy manually to workspace or global skills
+cp -r ddd-design <workspace>/skills/
+# or
+cp -r ddd-design ~/.openclaw/skills/
+```
+
+OpenClaw loads skills from `<workspace>/skills/`, `~/.openclaw/skills/`, and other [configurable paths](https://docs.openclaw.ai/tools/skills).
 
 ### Claude Code
 
