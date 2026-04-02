@@ -10,6 +10,7 @@ Born from real production use at [Museon AI](https://github.com/Museon-AI) — t
 |-------|-------------|----------|
 | [ddd-design](ddd-design/) | DDD decision trees, tactical patterns, code templates, review checklist | Python backends with domain complexity |
 | [project-spec](project-spec/) | Living documentation template for your project's architecture, conventions, and data flow | Any full-stack project |
+| [codex-review](codex-review/) | Run OpenAI Codex CLI code reviews from your AI agent | Any project with Codex CLI installed |
 
 ## Quick Start
 
